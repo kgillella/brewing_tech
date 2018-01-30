@@ -4,7 +4,11 @@ import PlacesAutocomplete, { geocodeByAddress, getLatLng } from 'react-places-au
 class AutoCompleteSearch extends React.Component {
   constructor(props) {
     super(props)
-    this.state = { address: 'San Francisco, CA' }
+    this.state = { 
+      address: 'San Francisco, CA',
+      lat:'',
+      long:''
+    }
     this.onChange = (address) => this.setState({ address })
   }
 
@@ -13,7 +17,14 @@ class AutoCompleteSearch extends React.Component {
 
     geocodeByAddress(this.state.address)
       .then(results => getLatLng(results[0]))
-      .then(latLng => console.log('Success', latLng))
+      .then(latLng =>{ 
+        this.setState({
+          lat:latLng.lat,
+          lng:latLng.lng
+        });
+        console.log('Success', this.state.lng);
+      }
+      )
       .catch(error => console.error('Error', error))
   }
 

@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "google-map-react": "^0.29.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-geolocated": "^2.3.0",
+    "react-google-maps": "^9.4.5",
+    "react-places-autocomplete": "^6.0.2",
     "react-scripts": "1.1.0"
   },
   "scripts": {

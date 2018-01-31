@@ -4,6 +4,7 @@ import '../style/modules/App.css';
 import Geolocation from './Geolocation.js';
 import DrawMap from './DrawMap';
 import AutoCompleteSearch from './AutoCompleteSearch';
+import Header from './Header';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         {/*<Geolocation/>
         <div style={{width: '100%', height: '400px'}}>
         </div>*/}
+        <Header/>
         <DrawMap/>
         <AutoCompleteSearch/>
       </div>

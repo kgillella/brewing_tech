@@ -27,6 +27,7 @@ class AutoCompleteSearch extends React.Component {
       }
       )
       .catch(error => console.error('Error', error))
+      //history.pushState(state, url, param);
       browserHistory.push('/searchResult');
   }
 

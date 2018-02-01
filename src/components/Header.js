@@ -12,6 +12,9 @@ render() {
         <option value="Monthly">Monthly</option>        
       </select>
       </div>
+      <div className="rightHeaderItem">
+      <a>Login</a>
+      </div>
     </div>
   );
 }

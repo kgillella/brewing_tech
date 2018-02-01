@@ -23,12 +23,18 @@
 }
 .header{
   padding:0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+
 }
 .leftHeaderItem{
   width: 20%;
   text-align: left;
   display: flex;
   justify-content: space-evenly;
+}
+.rightHeaderItem{
+  text-align:right;
 }
 .selectValues{
   padding:0.5rem;

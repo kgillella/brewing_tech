@@ -2,13 +2,22 @@ import React, { Component } from 'react';
 import '../style/modules/App.css';
 
 class Header extends Component {
-  render() {
-    return (
-      <div className="Header">
-        {/*Please add the HTML code*/}
+render() {
+  return (
+    <div className="header">
+      <div className="leftHeaderItem">
+      <img src="brewing.svg" alt="brewing-tech" height="42" width="42"/>
+      <select className="selectValues">
+        <option value="Yearly">Yearly</option>
+        <option value="Monthly">Monthly</option>        
+      </select>
       </div>
-    );
-  }
+      <div className="rightHeaderItem">
+      <a>Login</a>
+      </div>
+    </div>
+  );
+}
 }
 
 export default Header;

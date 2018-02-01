@@ -1,5 +1,6 @@
 import React from 'react'
 import PlacesAutocomplete, { geocodeByAddress, getLatLng } from 'react-places-autocomplete'
+import {browserHistory} from 'react-router';
 
 class AutoCompleteSearch extends React.Component {
   constructor(props) {
@@ -26,6 +27,7 @@ class AutoCompleteSearch extends React.Component {
       }
       )
       .catch(error => console.error('Error', error))
+      browserHistory.push('/searchResult');
   }
 
   render() {

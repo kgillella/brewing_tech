@@ -7,22 +7,18 @@ import '../style/modules/App.css';
     constructor(props) {
       super(props)
       this.state = { 
-        data:''
+        lat:'',
+        lng:''
       }
     }
 
-    // componentDidMount(){
-    //   fetch('https://1pssztfj82.execute-api.us-east-1.amazonaws.com/dev/slotsinfo/get').then(results => {
-    //     return results.json();
-    // }).then (function (data){
-    //   data.map((value)=>{
-    //     console.log(value);
-    //   })
-    //   //console.log(data);
-    //   }).catch(function(){
-    //   console.log("error");
-    //   })
-    // }
+    componentDidMount(){
+     this.setState({
+      lat:this.props.location.state.message.lat,
+      lng:this.props.location.state.message.lng
+    });
+      // console.log("test...",this.state.lat);
+    }
   
     static defaultProps = {
       center: {lat: 12.9442212, lng:77.6936836},
@@ -41,6 +37,7 @@ import '../style/modules/App.css';
       return (
         <div className="mapHolder">
          <GoogleMapReact
+          //defaultCenter={{lat: this.props.location.state.message.lat, lng: this.props.location.state.message.lng }}
           defaultCenter={this.props.center}
           defaultZoom={this.props.zoom}
           onGoogleApiLoaded={({map, maps}) => this.renderMarkers(map, maps)}

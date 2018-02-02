@@ -7,8 +7,8 @@ class AutoCompleteSearch extends React.Component {
     super(props)
     this.state = { 
       address: 'San Francisco, CA',
-      lat:'',
-      long:''
+      lat:'13.34444',
+      lng:'76.4789'
     }
     this.onChange = (address) => this.setState({ address })
   }
@@ -18,7 +18,7 @@ class AutoCompleteSearch extends React.Component {
 
     geocodeByAddress(this.state.address)
       .then(results => getLatLng(results[0]))
-      .then(latLng =>{ 
+      .then(latLng =>{
         this.setState({
           lat:latLng.lat,
           lng:latLng.lng
@@ -27,8 +27,7 @@ class AutoCompleteSearch extends React.Component {
       }
       )
       .catch(error => console.error('Error', error))
-      //history.pushState(state, url, param);
-      browserHistory.push('/searchResult');
+      browserHistory.push({pathname: '/searchResult', state: {message: this.state}});
   }
 
   render() {

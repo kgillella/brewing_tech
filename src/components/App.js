@@ -4,6 +4,7 @@ import '../style/modules/App.css';
 import Geolocation from './Geolocation.js';
 import AutoCompleteSearch from './AutoCompleteSearch';
 import Header from './Header';
+import Result from './Result';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
         </div>*/}
         <Header/>
         <AutoCompleteSearch/>
+        <Result/>
       </div>
     );
   }

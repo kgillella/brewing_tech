@@ -18,7 +18,7 @@ class ParkingPlaces extends Component {
                                 8th Main, 2nd cross road, Jayanagar
                             </p>
                             <div className="vehicle-option">
-                                <select classNameName="vehicle-type">
+                                <select classNameName="vehicle-type-reservation"> 
                                     <option value="">Vehicle Type</option>
                                 </select>
                                 <div className="rate-card">
@@ -33,7 +33,23 @@ class ParkingPlaces extends Component {
                                 <h4>Occupancy</h4>
 
                                 <div class="occupancy">
-                                    <img src={require('../assets/airportShuttle.png')} alt="brewing-tech" height="42" width="42" />
+                                    <img src={require('../assets/airportShuttle.png')} alt="brewing-tech"  />
+                                    <img src={require('../assets/Bike_Black.png')} alt="brewing-tech"  />
+                                    <img src={require('../assets/Scooter_Black.png')} alt="brewing-tech"  />
+                                    <img src={require('../assets/Truck_Black.png')} alt="brewing-tech"  />
+
+                                </div>
+                            </div>
+                            <div class="result-list-map"></div>
+                            <div class="facilities-section">
+                                <h4>Facilities</h4>
+
+                                <div class="">
+                                   <div class="facilities">
+                                    <img src={require('../assets/car-washing.png')} alt="brewing-tech"  /><span>Car Wash</span></div>
+                                   <div class="facilities"> <img src={require('../assets/charge.png')} alt="brewing-tech"  /><span>Electronic Vehicle Charging</span></div>
+                                   <div class="facilities"> <img src={require('../assets/disabled-sign.png')} alt="brewing-tech"  /><span>Handicap Services</span></div>
+                                  
 
                                 </div>
                             </div>

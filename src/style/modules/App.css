@@ -222,6 +222,7 @@ footer {
   }
   .tabs-wrapper{
     margin-top:10rem;
+    min-height: 450px;
   }
   .tabs-wrapper .react-tabs__tab-list{
     list-style: none;
@@ -438,9 +439,20 @@ footer {
 }
 
 .detail-address{
-    margin:1rem 0;
+    margin:1rem 0; 
 }
-.vehicle-type{
+.vehicle-type-reservation{
     padding: 0.5rem;
     background-color: gainsboro;
+}
+.occupancy{
+    margin:0.5rem 0;
+    display:flex;
+    justify-content:space-between;
+}
+.facilities{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:1rem 0;
 }

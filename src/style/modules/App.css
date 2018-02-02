@@ -288,3 +288,161 @@ footer {
     display:flex;
     width:80%;
   }
+
+  /*Parking places*/
+  li {
+    list-style: none;
+}
+.parking-page-wrapper {
+    margin: auto;
+    max-width: 1480px;
+    width: 100%;
+}
+
+.park-results-list {
+    overflow: hidden;
+}
+.park-result-header-wrap {
+    background: #f3f3f3;
+}
+.park-result-header {
+    margin: 0 5%;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+.result-info-text {
+    float: left;
+    padding: 8px 15px 0 0;
+}
+.result-info {
+    float: left;
+}
+.result-info ul {
+    overflow: hidden;
+}
+.result-info li {
+    float: left;
+    background: #ccc;
+    padding: 8px 10px;
+    border-radius: 12px;
+    margin-right: 10px;
+}
+.result-info a {
+    padding: 0 5px 0 10px;
+}
+.park-filters {
+    float: right;
+    margin-top: 10px;
+}
+.add-filter-section,
+.list-view-section,
+.sort-section {
+    float: left;
+}
+.add-filter-section {
+    border-right: 1px solid #333;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.result-list-view {
+    float: left;
+    padding: 0;
+    width: 30%;
+}
+.list-row {
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    padding: 15px 30px;
+}
+.location-pic {
+    float: left;
+    width: 125px;
+}
+.location-pic img {
+    width: 125px;
+    height: 125px;
+}
+.list-location-info {
+    float: right;
+    width: 220px;
+}
+.list-location-info h4{
+
+}
+.list-location-info span{
+    font-size: 11px;
+}
+.list-location-info p{
+    padding: 6px 0;
+    font-size: 13px;
+}
+.result-list-map {
+    float: left;
+    width: 68%;
+    border: 1px solid #ccc;
+}
+input[type="button"] {
+    background: #f5bd23;
+    border: none;
+    color: #222;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 10px 0 0;
+    padding: 8px 20px;
+}
+
+footer {
+    background: #eee;
+    padding: 15px 40px;
+    overflow: hidden;
+}
+.footer-logo {
+    float: left;
+}
+.footer-logo a {
+    background: url(../../assets/logo.png) no-repeat;
+    display: block;
+    height: 80px;
+    width: 108px;
+}
+.footer-content {
+    font-size: 12px;
+    float: right;
+    padding-top: 35px;
+}
+
+/* Parkplace details css */
+.detail-panel {
+    float: left;
+    width: 30%;
+}
+.result-detail-map {
+    float: left;
+    width: 60%
+}
+.detail-location-pic img {
+    width: 350px;
+}
+.detail-location-info {
+
+}
+.vehicle-option {
+    overflow: hidden;
+}
+.vehicle-option select {
+    float: right;
+}
+.rate-card {
+    float: left;
+}
+.left-container{
+    width:50%;
+}
+.reservation-heading{
+    display:flex;
+}
+.book-now-btn{
+    margin:0;
+}

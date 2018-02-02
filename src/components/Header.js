@@ -13,9 +13,9 @@ render() {
       </select>
       </div>
       <div className="rightHeaderItem">
-      <a>Login</a>
+      <a className="login-link" href="#">Login</a>
       </div>
-    </div>
+    </div>  
   );
 }
 }

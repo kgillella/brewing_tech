@@ -1,6 +1,7 @@
 import React from 'react'
 import PlacesAutocomplete, { geocodeByAddress, getLatLng } from 'react-places-autocomplete'
 import {browserHistory} from 'react-router';
+import Dropdown from './Dropdown';
 
 class AutoCompleteSearch extends React.Component {
   constructor(props) {
@@ -37,9 +38,10 @@ class AutoCompleteSearch extends React.Component {
     }
 
     return (
-      <form onSubmit={this.handleFormSubmit}>
+      <form onSubmit={this.handleFormSubmit} className="main-container">
         <PlacesAutocomplete inputProps={inputProps} />
-        <button type="submit">Submit</button>
+        <Dropdown/>
+        <button type="submit" className="search-button">Search</button>
       </form>
     )
   }

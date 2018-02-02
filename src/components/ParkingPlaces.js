@@ -42,7 +42,7 @@ class ParkingPlaces extends Component {
                                 8th Main, 2nd cross road, Jayanagar
                             </p>
                             <div class="vehicle-option">
-                                <select>
+                                <select className="vehicle-type">
                                     <option value="">Vehicle Type</option>
                                 </select>
                                 <div class="rate-card">

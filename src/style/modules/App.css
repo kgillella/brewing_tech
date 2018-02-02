@@ -139,7 +139,6 @@ input[type="button"] {
     color: #222;
     cursor: pointer;
     font-size: 14px;
-    margin: 10px 0 0;
     padding: 8px 20px;
 }
 
@@ -383,15 +382,7 @@ footer {
     width: 68%;
     border: 1px solid #ccc;
 }
-input[type="button"] {
-    background: #f5bd23;
-    border: none;
-    color: #222;
-    cursor: pointer;
-    font-size: 14px;
-    margin: 10px 0 0;
-    padding: 8px 20px;
-}
+
 
 footer {
     background: #eee;
@@ -416,7 +407,7 @@ footer {
 /* Parkplace details css */
 .detail-panel {
     float: left;
-    width: 30%;
+    width: 50%;
 }
 .result-detail-map {
     float: left;
@@ -442,7 +433,13 @@ footer {
 }
 .reservation-heading{
     display:flex;
+    justify-content:space-between;
 }
-.book-now-btn{
-    margin:0;
+
+.detail-address{
+    margin:1rem 0;
+}
+.vehicle-type{
+    padding: 0.5rem;
+    background-color: gainsboro;
 }

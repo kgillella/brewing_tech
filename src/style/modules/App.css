@@ -38,7 +38,7 @@ body {
     font: 14px Arial, Helvetica, sans-serif; 
   }
 .App{
-    background-image: url("../../background-parking.jpg");
+    background: #000 url("../../background-parking.jpg") no-repeat center center;
 }
 li {
     list-style: none;

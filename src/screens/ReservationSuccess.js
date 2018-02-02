@@ -13,6 +13,9 @@ class ReservationSuccess extends Component {
         <Header/>
         <FilterTab/>
         <ParkingPlaces/>
+        <div class="result-list-map">
+          <DrawMap/>
+        </div>
         <Footer/>
       </div>
     );

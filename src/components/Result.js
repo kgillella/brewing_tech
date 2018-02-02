@@ -28,7 +28,7 @@ class Result extends Component {
         return (
                 <div className="list-row">
                         <div className="location-pic">
-                            <img src="../assets(locationpic.jpg)" />
+                            <img src={require('../assets/locationpic.jpg')}/>
                         </div>
                         <div className="list-location-info">
                             <h4>Residential Yemlur Parking Lot</h4>

@@ -6,7 +6,7 @@ render() {
   return (
     <div className="header">
       <div className="leftHeaderItem">
-      <img src="brewing.svg" alt="brewing-tech" height="42" width="42"/>
+      <img src={require('../assets/logo.png')} alt="brewing-tech" height="42" width="42"/>
       <select className="selectValues">
         <option value="Yearly">Yearly</option>
         <option value="Monthly">Monthly</option>        

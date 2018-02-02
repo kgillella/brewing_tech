@@ -1,7 +1,6 @@
 # Brewing-Tech
 
 Serverless setup:
-
 1. Install Serverless framework globally.
 sudo npm install -g serverless
 

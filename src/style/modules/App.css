@@ -144,7 +144,6 @@ input[type="button"] {
 
 footer {
     background: #eee;
-    color: #fff;
     padding: 15px 40px;
     overflow: hidden;
 }
@@ -192,10 +191,6 @@ footer {
     display: flex;
     justify-content: space-evenly;
   }
-  .leftHeaderItem img {
-      width: 108px;
-      height: 80px;
-  }
   .rightHeaderItem{
     text-align:right;
     display: flex;
@@ -227,7 +222,6 @@ footer {
   }
   .tabs-wrapper{
     margin-top:10rem;
-    min-height: 450px;
   }
   .tabs-wrapper .react-tabs__tab-list{
     list-style: none;
@@ -385,7 +379,7 @@ footer {
 }
 .result-list-map {
     float: left;
-    width:80%;
+    width: 68%;
     margin: 0.5rem 0;
     border: 1px solid #ccc;
 }
@@ -438,20 +432,15 @@ footer {
 .left-container{
     width:50%;
 }
-
 .reservation-heading{
     display:flex;
     justify-content:space-between;
 }
 
-
 .detail-address{
     margin:1rem 0;
 }
-.vehicle-type-reservation{
+.vehicle-type{
     padding: 0.5rem;
     background-color: gainsboro;
-}
-.occupancy{
-    margin:0.5rem 0;
 }

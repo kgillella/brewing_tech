@@ -12,13 +12,13 @@ import '../style/modules/App.css';
       }
     }
 
-    componentDidMount(){
-     this.setState({
-      lat:this.props.location.state.message.lat,
-      lng:this.props.location.state.message.lng
-    });
-      // console.log("test...",this.state.lat);
-    }
+    // componentDidMount(){
+    //  this.setState({
+    //   lat:this.props.location.state.message.lat,
+    //   lng:this.props.location.state.message.lng
+    // });
+    //   // console.log("test...",this.state.lat);
+    // }
   
     static defaultProps = {
       center: {lat: 12.9442212, lng:77.6936836},

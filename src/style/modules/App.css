@@ -380,6 +380,7 @@ footer {
 .result-list-map {
     float: left;
     width: 68%;
+    margin: 0.5rem 0;
     border: 1px solid #ccc;
 }
 
@@ -429,7 +430,7 @@ footer {
     float: left;
 }
 .left-container{
-    width:50%;
+    width:39%;
 }
 .reservation-heading{
     display:flex;

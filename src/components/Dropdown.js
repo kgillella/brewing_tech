@@ -3,12 +3,13 @@ import '../style/modules/App.css';
 
 
 class Dropdown extends Component {
+  
   render() {
-    return ( 
+    return (
       <div className="Dropdown">
         <select className="vehicle-type">
-           <option value="">Vehicle Type</option>
-       </select>
+          <option value="">Vehicle Type</option>
+        </select>
       </div>
     );
   }

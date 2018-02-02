@@ -379,7 +379,8 @@ footer {
 }
 .result-list-map {
     float: left;
-    width: 68%;
+    width:100%;
+    margin: 0.5rem 0;
     border: 1px solid #ccc;
 }
 
@@ -431,15 +432,20 @@ footer {
 .left-container{
     width:50%;
 }
+
 .reservation-heading{
     display:flex;
     justify-content:space-between;
 }
 
+
 .detail-address{
     margin:1rem 0;
 }
-.vehicle-type{
+.vehicle-type-reservation{
     padding: 0.5rem;
     background-color: gainsboro;
+}
+.occupancy{
+    margin:0.5rem 0;
 }

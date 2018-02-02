@@ -5,13 +5,14 @@ import Footer from '../components/Footer';
 import ParkingPlaces from '../components/ParkingPlaces'
 
 class ReservationSuccess extends Component {
+  
   render() {
     return (
       <div className="ReservationSuccess">
-        <Header/>
-        
-        <ParkingPlaces/>
-        <Footer/>
+        <Header />
+
+        <ParkingPlaces />
+        <Footer />
       </div>
     );
   }

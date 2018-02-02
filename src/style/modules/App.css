@@ -191,6 +191,10 @@ footer {
     display: flex;
     justify-content: space-evenly;
   }
+  .leftHeaderItem img {
+      width: 108px;
+      height: 80px;
+  }
   .rightHeaderItem{
     text-align:right;
     display: flex;
@@ -272,7 +276,8 @@ footer {
     border-top-left-radius: 0;
     border: 1px solid #ffffff;
     padding: 10px 40px;
-  
+    position: relative;
+    height: 35px;
   }
   .search-button{
     margin-left: 3rem;
@@ -379,17 +384,23 @@ footer {
     font-size: 13px;
 }
 .result-list-map {
-    float: left;
+    float: right;
     width: 68%;
     margin: 0.5rem 0;
     border: 1px solid #ccc;
+}
+.occupancy-section .result-list-map {
+    border-bottom: 1px solid #ccc;
+    width: 100%;
 }
 
 
 footer {
     background: #000;
+    color: #fff;
     padding: 15px 40px;
     overflow: hidden;
+    clear: both;
 }
 .footer-logo {
     float: left;
@@ -410,6 +421,7 @@ footer {
 .detail-panel {
     float: left;
     width: 50%;
+    padding:0 20px;
 }
 .result-detail-map {
     float: left;

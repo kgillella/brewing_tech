@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Router, Route, IndexRoute, browserHistory} from 'react-router';
 import './style/index.css';
-import App from './components/App';
+import App from './screens/App';
 import registerServiceWorker from './registerServiceWorker';
 import SearchLandingPage from './screens/SearchLandingPage';
-import ReservationSuccess from './components/ReservationSuccess';
-import Error from './components/Error';
+import ReservationSuccess from './screens/ReservationSuccess';
+import Error from './screens/Error';
 
 
 ReactDOM.render(
@@ -19,5 +19,3 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// ReactDOM.render(<App />, document.getElementById('root'));
-// registerServiceWorker();

@@ -130,7 +130,7 @@ li {
 }
 .result-list-map {
     float: left;
-    width: 68%;
+    width: 100%;
     border: 1px solid #ccc;
 }
 input[type="button"] {
@@ -436,7 +436,7 @@ footer {
     float: left;
 }
 .left-container{
-    width:39%;
+    width:50%;
 }
 
 .reservation-heading{

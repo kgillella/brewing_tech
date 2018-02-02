@@ -18,7 +18,7 @@ class SearchLandingPage extends Component {
         <div className="result-list-map">
             <DrawMap/>
         </div>
-        <Footer/>
+        
       </div>
     );
   }

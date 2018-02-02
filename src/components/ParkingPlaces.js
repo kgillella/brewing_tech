@@ -52,9 +52,12 @@ class ParkingPlaces extends Component {
                             </div>
                             
                         </div>
-                        <div class="occupancy-section"></div>
+                        <div class="result-list-map"></div>
+                        <div class="occupancy-section">
+                        <h4>Occupancy</h4>
+                        </div>
                     </div>
-                    <div class="result-list-map"></div>
+                    
                 </div>
             </section>
           
